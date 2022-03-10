@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	total := tickets.GetTotalTickets("Brazil")
+	total, err := tickets.GetTotalTickets("Brazil")
 }
